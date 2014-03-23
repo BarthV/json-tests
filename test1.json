@@ -2,7 +2,6 @@
   "id": "0001",
   "type": "donut",
   "name": "Cake",
-  "is": "a lie...",
   "image": {
     "url": "images/0001.jpg",
     "width": 200,
