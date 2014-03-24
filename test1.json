@@ -1,5 +1,5 @@
 {
-  "id": "005\n",
+  "id": "005",
   "type": "donut",
   "name": "Cake",
   "image": {
@@ -8,6 +8,31 @@
     "height": 200
   },
   "thumbnail": {
+    "thumbnail": {
+      "thumbnail": {
+        "thumbnail": {
+          "thumbnail": {
+            "thumbnail": {
+              "url": "images/thumbnails/0001.jpg",
+              "width": 32,
+              "height": 32
+            },
+            "url": "images/thumbnails/0001.jpg",
+            "width": 32,
+            "height": 32
+          },
+          "url": "images/thumbnails/0001.jpg",
+          "width": 32,
+          "height": 32
+        },
+        "url": "images/thumbnails/0001.jpg",
+        "width": 32,
+        "height": 32
+      },
+      "url": "images/thumbnails/0001.jpg",
+      "width": 32,
+      "height": 32
+    },
     "url": "images/thumbnails/0001.jpg",
     "width": 32,
     "height": 32
