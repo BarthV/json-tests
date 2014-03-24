@@ -1,0 +1,23 @@
+{
+  "name": "photobox-generic",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "tz": "Etc/UTC",
+    "techops": {
+      "system": {
+        "noswap": "true"
+      }
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[techops-system]",
+    "recipe[techops-nagios]",
+    "recipe[techops-ocs]"
+  ],
+  "env_run_lists": {
+  }
+}

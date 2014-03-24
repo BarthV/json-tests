@@ -1,0 +1,50 @@
+{
+  "name": "sart",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "site": "sart",
+    "ntp": {
+      "servers": [
+        "0.ubuntu.pool.ntp.org",
+        "1.ubuntu.pool.ntp.org",
+        "2.ubuntu.pool.ntp.org",
+        "3.ubuntu.pool.ntp.org",
+        "ntp.ubuntu.com"
+      ]
+    },
+    "locales": {
+      "default": "fr_FR.UTF-8",
+      "available": [
+        "fr_FR.UTF-8 UTF-8",
+        "en_US.UTF-8 UTF-8"
+      ]
+    },
+    "resolver": {
+      "nameservers": [
+        "10.1.1.1",
+        "10.1.1.1"
+      ],
+      "search": "photobox.com",
+      "options": {
+        "timeout": 2,
+        "rotate": "nil"
+      }
+    },
+    "techops": {
+      "ocs": {
+        "server": "ocs-ocs.mylan.lan",
+        "tag": "SARTROUVILLE"
+      }
+    },
+    "country": "fr"
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+
+  ],
+  "env_run_lists": {
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "ifactory-workstation",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "tz": "Europe/Paris",
+    "techops": {
+      "network-manager": {
+        "remove": true
+      }
+    }
+  },
+  "override_attributes": {
+    "set_fqdn": "*.piwis.com",
+    "techops": {
+      "system": {
+        "domainname": "piwis.com"
+      }
+    }
+  },
+  "chef_type": "role",
+  "run_list": [
+    "role[photobox-generic]",
+    "recipe[ifactory-workstation]"
+  ],
+  "env_run_lists": {
+  }
+}
