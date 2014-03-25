@@ -1,5 +1,5 @@
 {
-  "name": "sart",
+  "name": "sartt",
   "description": "",
   "json_class": "Chef::Role",
   "default_attributes": {
@@ -39,12 +39,8 @@
     },
     "country": "fr"
   },
-  "override_attributes": {
-  },
+  "override_attributes": {},
   "chef_type": "role",
-  "run_list": [
-
-  ],
-  "env_run_lists": {
-  }
+  "run_list": [],
+  "env_run_lists": {}
 }
