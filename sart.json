@@ -3,7 +3,7 @@
   "description": "",
   "json_class": "Chef::Role",
   "default_attributes": {
-    "site": "sart",
+    "site": "ici",
     "ntp": {
       "servers": [
         "0.ubuntu.pool.ntp.org",
@@ -22,10 +22,10 @@
     },
     "resolver": {
       "nameservers": [
-        "10.1.1.1",
-        "10.1.1.1"
+        "1.1.1.1",
+        "1.1.1.1"
       ],
-      "search": "photobox.com",
+      "search": "myphotos.com",
       "options": {
         "timeout": 2,
         "rotate": "nil"
