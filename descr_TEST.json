@@ -1,10 +1,7 @@
 {
   "iways": {
     "bundles": {
-      "iways_container": [
-        "iways_monitoring_ui",
-        "iways_properties"
-      ]
+      "iways_container": ["iways_monitoring_ui","iways_properties"]
     },
     "components": {
       "iways_monitoring_ui": {
