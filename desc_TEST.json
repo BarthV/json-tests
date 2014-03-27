@@ -1,0 +1,7 @@
+{
+  "iways" => {
+    "bundles" => {"iways_container"=>["iways_monitoring_ui", "iways_properties"]},
+    "components" => {"iways_monitoring_ui"=>{"artifact"=>"iways-monitoring-ui", "packaging"=>"war", "groupid"=>"com.photobox.iprod", "dirname"=>"servers/tomcat-instances/iways-instance-ui/webapps", "filename"=>"monitoring.war", "method"=>"file"}, "iways_properties"=>{"artifact"=>"iways-properties", "packaging"=>"tar.gz", "groupid"=>"com.photobox.iprod", "dirname"=>"properties/iways", "shared_dir"=>[]}}
+    "versions" => {"iways_monitoring_ui"=>"trunk-SNAPSHOT", "iways_properties"=>"trunk-SNAPSHOT"}
+  }
+}
