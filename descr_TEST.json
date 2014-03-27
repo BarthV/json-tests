@@ -1,7 +1,10 @@
 {
   "iways": {
     "bundles": {
-      "iways_container": ["iways_monitoring_ui","iways_properties"]
+      "iways_container": [
+        "iways_monitoring_ui",
+        "iways_properties"
+      ]
     },
     "components": {
       "iways_monitoring_ui": {
@@ -19,7 +22,7 @@
         "dirname": "properties/iways",
         "shared_dir": []
       }
-    }
+    },
     "versions" : {
       "iways_monitoring_ui": "trunk-SNAPSHOT",
       "iways_properties": "trunk-SNAPSHOT"
